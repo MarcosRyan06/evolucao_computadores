@@ -1,0 +1,128 @@
+/* ============================
+   CONFIGURAÇÕES GERAIS
+=============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0c0c0c;
+    color: #e6e6e6;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+/* ============================
+   CABEÇALHO
+=============================== */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #111;
+    border-bottom: 2px solid #08f;
+}
+
+header h1 {
+    color: #08f;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #aaa;
+    font-size: 1.1rem;
+}
+/* ============================
+   PRINCIPAL (MAIN)
+=============================== */
+main {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+/* Sections gerais */
+section {
+    margin-bottom: 60px;
+    background: #111;
+    padding: 20px;
+    border-left: 4px solid #08f;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #08f3;
+}
+
+section h2 {
+    color: #08f;
+    margin-bottom: 10px;
+}
+
+section p,
+section li {
+    color: #ddd;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* ============================
+   CARDS DAS MÁQUINAS FAMOSAS
+=============================== */
+
+
+.computador h3 {
+    color: #4da6ff;
+    margin-bottom: 10px;
+}
+
+ img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 12px;
+    border: 2px solid #08f5;
+}
+
+/* ============================
+   FOOTER
+=============================== */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    margin: 5px 15px;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #08f;
+    border: 2px solid #08f;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background: #08f;
+    color: #0c0c0c;
+}
+
+/* ============================
+   RESPONSIVIDADE
+=============================== */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
